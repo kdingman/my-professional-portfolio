@@ -20,7 +20,7 @@ function Header() {
                     <span role="img" aria-label="sunshine">🔆</span>
             </a>
 
-            <img src={headerImage} className="Hero" style={{ width: "100%" }} alt="headerImage" />
+            <img src={headerImage} className="hero" style={{ width: "100%" }} alt="headerImage" />
 
             <Nav />
             </h2>

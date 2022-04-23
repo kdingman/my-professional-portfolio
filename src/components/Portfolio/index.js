@@ -4,7 +4,7 @@ import Projects from "../Project";
 import data from "../../utils/data";
 
 function PortfolioContainer(props) {
-    return <div className="portfolio-containter">{props.children}</div>
+    return <div className="portfolio-container">{props.children}</div>
 }
 
 function Portfolio() {

@@ -40,10 +40,10 @@ function ContactForm() {
     }
 
     return (
-        <section>
-            <h1 id="h1tag">Contact Me</h1>
+        <section className="justify-content-center" id="contact-section">
+            <h1 id="h1tag" className="contact">Contact Me</h1>
 
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form className="justify-content-center" id="contact-form" >
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -64,7 +64,7 @@ function ContactForm() {
                     </div>
                 )}
 
-                <button id="button" class="btn btn-outline-secondary" type="submit">Submit</button>
+                <button id="button" class="btn btn-outline-secondary" type="submit" onSubmit={handleSubmit}>Submit</button>
 
             </form>
         </section>

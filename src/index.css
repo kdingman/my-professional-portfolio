@@ -11,3 +11,192 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* colors imported from https://coolors.co/palette/ea698b-d55d92-c05299-ac46a1-973aa8-822faf-6d23b6-6411ad-571089-47126b */
+:root {
+--blush: #ea698bff;
+--fandango-pink: #d55d92ff;
+--mulberry-crayola: #c05299ff;
+--byzantine: #ac46a1ff;
+--purpureus: #973aa8ff;
+--violet-ryb: #822fafff;
+--purple: #6d23b6ff;
+--purple-2: #6411adff;
+--blue-violet-color-wheel: #571089ff;
+--blue-violet-color-wheel-2: #47126bff;
+--white-smoke: #f5f5f5;
+}
+
+* {
+  background: var(--white-smoke);
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("assets/headerImage.png");;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  background: none;
+}
+
+p {
+  font-size: 18px;
+  color: var(--white-smoke);
+  font-weight: bold;
+  background-color: var(--mulberry-crayola);
+  text-align: center;
+}
+
+h1 {
+  margin: auto 25px;
+  padding: 12px;
+  color: var(--blue-violet-color-wheel-2);
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  margin-right: 5px;
+}
+
+/* ----- Nav ----- */
+#nav {
+  align-items: flex-end;
+  font-size: 22px;
+  text-decoration: none;
+  align-content: center;
+}
+
+#nav ul {
+  flex-direction: row-reverse;
+}
+
+#nav a {
+  color: var(--blue-violet-color-wheel);
+  padding-right: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav li {
+  color: var(--blue-violet-color-wheel);
+  padding-right: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#nav span {
+  color: var(--blue-violet-color-wheel);
+  padding-right: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 10px;
+}
+
+/* ------ About Section ----- */
+#about-me {
+  margin: 2em;
+}
+
+#about-me p {
+  background-color: var(--white-smoke);
+  color: var(--blue-violet-color-wheel-2);
+}
+/* ------ End About Section ----- */
+
+/* ------ Contact Section ----- */
+#contact-section {
+  justify-content: center;
+  margin: 20px;
+  margin: 10em 0 10em 0;
+}
+/* ------ End Contact Section ----- */
+
+/* ------- Portfolio Cards -------- */
+.card {
+  background-color: var(--blue-violet-color-wheel-2);
+  border: solid;
+  border-radius: 2px;
+  height: 400px;
+  width: 400px;
+  margin: 2rem;
+  position: relative;
+}
+
+.card .container img {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: var(--blue-violet-color-wheel-2);
+}
+
+.card .content {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--blue-violet-color-wheel-2);
+  color: var(--white-smoke);
+}
+
+#project-icon {
+  background-color: var(--blue-violet-color-wheel-2);
+  padding: 5px;
+}
+
+#card-name {
+  margin-top: 10px;
+  color: var(--white-smoke);
+  font-weight: bold;
+}
+
+.portfolio-container {
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  overflow: auto;
+  padding-top: 50px;
+  padding: 10px;
+  height: 100%;
+}
+/* ------- End Cards -------- */
+
+/* ----- Resume ----- */
+#resume {
+  background-color: var(--white-smoke);
+}
+
+#resume p {
+  background-color: var(--white-smoke);
+  color: var(--blue-violet-color-wheel-2);
+  justify-content: center;
+  margin-top: 5px;
+}
+/* ----- End Resume ----- */
+
+/* ------ Footer ----- */
+#footer {
+  margin-top: 10;
+  padding: 5px;
+  background-color: var(--white-smoke);
+}
+
+#footer .icon {
+  margin-top: 20px;
+  background-color: var(--white-smoke);
+}
+
+#footer p {
+  background-color: var(--white-smoke);
+  color: var(--blue-violet-color-wheel-2);
+  margin: 8px;
+}
+/* ------ Footer ----- */
