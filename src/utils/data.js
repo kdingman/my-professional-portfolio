@@ -7,7 +7,7 @@ import blogged from "../assets/blogged.png";
 import algorythm from "../assets/algorythm.png";
 import budget from "../assets/budget.png";
 
-export default [
+[
     {
         "id": 1,
         "name:": "Calendar Assistant",

@@ -16,7 +16,7 @@ function Portfolio() {
             </div>
 
             <PortfolioContainer id="card-data">
-                {data.map((project) => {
+                {data.map((project) => (
                     <Projects 
                     key={project.id}
                     image={project.image}
@@ -24,7 +24,7 @@ function Portfolio() {
                     github={project.github}
                     live={project.live}
                     />
-                })}
+                ))}
             </PortfolioContainer>
 
         </section>

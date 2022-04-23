@@ -1,5 +1,4 @@
 import React from 'react';
-import bootstrap from "bootstrap";
 import personalpic from "../../assets/personalpic.jpg";
 
 function About() {

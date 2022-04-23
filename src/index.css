@@ -187,6 +187,7 @@ h1 {
   margin-top: 10;
   padding: 5px;
   background-color: var(--white-smoke);
+  justify-content: center;
 }
 
 #footer .icon {
@@ -194,9 +195,10 @@ h1 {
   background-color: var(--white-smoke);
 }
 
-#footer p {
+#footer .footer-info {
   background-color: var(--white-smoke);
   color: var(--blue-violet-color-wheel-2);
   margin: 8px;
+  text-align: center;
 }
 /* ------ Footer ----- */
