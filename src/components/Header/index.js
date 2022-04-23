@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import headerImage from "../../assets/headerImage.png";
 
@@ -26,7 +26,6 @@ function Header() {
             </h2>
 
             <div className="content">
-                <Route exact path="/" render={() => (<Redirect to="/about"/>)}/>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/portfolio" component={Portfolio}/>
