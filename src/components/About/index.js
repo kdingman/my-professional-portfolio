@@ -1,17 +1,15 @@
 import React from 'react';
-import backgroundImage from '../../assets/backgroundImage.jpg';
+import bootstrap from "bootstrap";
 import personalpic from "../../assets/personalpic.jpg";
 
 function About() {
     return (
         <section className='title'>
-            <h1 class="about-me">a little bit ABOUT me</h1>
-            <img src={backgroundImage} className='my-2' style={{ width: '100%'}} alt='cover' />
-
+            <h1 class="about-me justify-content-center">a little bit ABOUT me</h1>
             <div className='row justify-content-center'>
                 <div className='col-10' id='about-me'>
-                    <img class="mb-6" src={personalpic} alt="personalpic" />
-                    <p>
+                    <img class="mb-5" src={personalpic} alt="personalpic" />
+                    <p class="justify-content-center">
                         Oh Hello!
                     </p>
                     <p>    
