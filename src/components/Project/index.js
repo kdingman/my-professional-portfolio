@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import githubLogo from "../../assets/githubLogo.png";
 import livesite from "../../assets/livesite.png";

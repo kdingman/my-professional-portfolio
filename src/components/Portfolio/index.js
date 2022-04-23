@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Projects from "../Project";
 import data from "../../utils/data";
