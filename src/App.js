@@ -1,11 +1,14 @@
 import React from 'react';
-import About from './components/About';
+import bootstap from "bootstrap";
 
+import Header from "./components/Header";
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
-      <About></About>
+    <div className='App'>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }
