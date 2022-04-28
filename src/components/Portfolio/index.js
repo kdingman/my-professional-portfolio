@@ -2,11 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Projects from "../Project";
-import data from "../../utils/data";
-
-function PortfolioContainer(props) {
-    return <div className="portfolio-container">{props.children}</div>
-}
+import data from "../../utils/data.json";
 
 function Portfolio() {
     return (
@@ -15,7 +11,7 @@ function Portfolio() {
                 <h1 className="title">Kelly Dingman Professional Portfolio</h1>
             </div>
 
-            <PortfolioContainer id="card-data">
+            <div classsName="container flex-row space between" id="card-data">
                 {data.map((project) => (
                     <Projects 
                     key={project.id}
@@ -25,7 +21,7 @@ function Portfolio() {
                     live={project.live}
                     />
                 ))}
-            </PortfolioContainer>
+            </div>
 
         </section>
     );

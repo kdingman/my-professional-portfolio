@@ -1,27 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
-import headerImage from "../../assets/headerImage.png";
-
+// Import Components
 import Nav from "../Nav";
+import About from "../About";
+import Contact from "../Contact";
+import Portfolio from "../Portfolio";
+import Resume from "../Resume";
+
 
 function Header() {
-    
+    const [currentPage, setCurrentPage] = useState("About")
+
+    const renderPage = () => {
+        if (currentPage === "Contact") {
+            return <Contact />;
+        }
+        if (currentPage === "Portfolio") {
+            return <Portfolio />;
+        }
+        if (currentPage === "Resume") {
+            return <Resume />;
+        }
+        return <About />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
-        <header className="flex-row px-1"> 
-
-            <h2>
-            <a id="link" href="/">
-                    <span role="img" aria-label="sunshine">🔆</span>
-            </a>
-            <Nav />
-            <img src={headerImage} className="hero" style={{ width: "100%" }} alt="headerImage" />
-
-           
-            </h2>
-
-
-
-        </header>
+        <div>
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
+            
+        </div>
     );
 };
 

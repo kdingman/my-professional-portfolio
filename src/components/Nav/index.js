@@ -1,29 +1,39 @@
-import React, { useState } from "react";
+import React from "react";
 
 
-function Nav() {
-    const [contactSelected, setContactSelected] = useState(false);
+function Nav({ currentPage, handlePageChange}) {
     return (
-        <div className="row nav" id="nav">
+        <header className="flex-row px-1">
+            <h2>Kelly Dingman</h2>
             <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a id="about" href="#about" onClick={() => setContactSelected(false)}>
-                            About Me
-                        </a>
+                <ul className="justify-content-space-between">
+                    <li className="mx-2 nav-item">
+                        <a href="#about" onClick={() => handlePageChange("About")} 
+                            className={currentPage === "About" ? "nav-link-active" : "nav-link"}>
+                                About
+                            </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <li className="mx-2 nav-item">
+                        <a href="#contact" onClick={() => handlePageChange("Contact")}
+                            className={currentPage === "Contact" ? "nav-link-active" : "nav-link"}>
+                                Contact
+                            </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Portfolio</span>
+                    <li className="mx-2 nav-item">
+                        <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}
+                            className={currentPage === "Portfolio" ? "nav-link-active" : "nav-link"}>
+                                Portfolio
+                            </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Resume</span>
+                    <li className="mx-2 nav-item">
+                        <a href="#resume" onClick={() => handlePageChange("Resume")}
+                            className={currentPage === "Resume" ? "nav-link-active" : "nav-link"}>
+                                Resume
+                            </a>
                     </li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 };
 

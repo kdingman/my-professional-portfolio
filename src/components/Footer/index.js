@@ -13,7 +13,7 @@ function Footer() {
             <a href="https://twitter.com/kcdinger"><img src={twitter} alt="Twitter" className="icon" /></a>
         
         <p className="footer-info">
-            &copy; Kelly Dingman
+            &copy; 2022
         </p>
         </div>
     );

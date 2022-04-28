@@ -12,32 +12,24 @@ code {
     monospace;
 }
 
-/* colors imported from https://coolors.co/palette/ea698b-d55d92-c05299-ac46a1-973aa8-822faf-6d23b6-6411ad-571089-47126b */
+/* colors imported from https://coolors.co/eddcd2-fff1e6-fde2e4-fad2e1-c5dedd-dbe7e4-f0efeb-d6e2e9-bcd4e6-99c1de */
 :root {
---blush: #ea698bff;
---fandango-pink: #d55d92ff;
---mulberry-crayola: #c05299ff;
---byzantine: #ac46a1ff;
---purpureus: #973aa8ff;
---violet-ryb: #822fafff;
---purple: #6d23b6ff;
---purple-2: #6411adff;
---blue-violet-color-wheel: #571089ff;
---blue-violet-color-wheel-2: #47126bff;
---white-smoke: #f5f5f5;
+  --champagne-pink: #eddcd2ff;
+  --linen: #fff1e6ff;
+  --misty-rose: #fde2e4ff;
+  --mimi-pink: #fad2e1ff;
+  --powder-blue: #c5deddff;
+  --mint-cream: #dbe7e4ff;
+  --isabelline: #f0efebff;
+  --alice-blue: #d6e2e9ff;
+  --beau-blue: #bcd4e6ff;
+  --pale-cerulean: #99c1deff;
+  --font: #000000;
 }
 
 * {
-  background: var(--white-smoke);
-}
-
-.hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("assets/headerImage.png");;
-  background-size: cover;
-  background-position: center;
+  box-sizing: border-box;
+  background: var(--isabelline);
 }
 
 a {
@@ -46,56 +38,44 @@ a {
 
 p {
   font-size: 18px;
-  color: var(--white-smoke);
+  color: var(--font);
   font-weight: bold;
-  background-color: var(--mulberry-crayola);
+  background-color: var(--alice-blue);
   text-align: center;
 }
 
 h1 {
   margin: auto 25px;
   padding: 12px;
-  color: var(--blue-violet-color-wheel-2);
+  color: var(--font);
   font-weight: bold;
 }
 
 #header {
-  display: flex;
-  margin-right: 5px;
+  background: var(--isabelline);
+  padding: 50px 40px 30px 40px;
 }
 
 /* ----- Nav ----- */
-#nav {
-  align-items: flex-end;
-  font-size: 22px;
-  text-decoration: none;
-  align-content: center;
-}
-
-#nav ul {
-  flex-direction: row-reverse;
-}
-
-#nav a {
-  color: var(--blue-violet-color-wheel);
-  padding-right: 1em;
+.nav-link {
+  background: var(--isabelline);
+  border: none;
+  color: var(--pale-cerulean);
+  font-size: 18px;
   font-weight: bold;
-  text-decoration: none;
+  padding: 10px 15px;
 }
 
-#nav li {
-  color: var(--blue-violet-color-wheel);
-  padding-right: 1em;
+.nav-link-active {
+  background: var(--pale-cerulean);
+  border: none;
+  color: var(--isabelline);
+  font-size: 18px;
   font-weight: bold;
-  text-decoration: none;
+  padding: 10px 15px;
 }
+/* ----- End Nav ----- */
 
-#nav span {
-  color: var(--blue-violet-color-wheel);
-  padding-right: 1em;
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .icon {
   padding: 10px;
@@ -143,7 +123,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   background-color: var(--blue-violet-color-wheel-2);
-  color: var(--white-smoke);
+  color: var(--font);
 }
 
 #project-icon {
@@ -153,7 +133,7 @@ h1 {
 
 #card-name {
   margin-top: 10px;
-  color: var(--white-smoke);
+  color: var(--font);
   font-weight: bold;
 }
 
@@ -171,12 +151,12 @@ h1 {
 
 /* ----- Resume ----- */
 #resume {
-  background-color: var(--white-smoke);
+  background-color: var(--isabelline);
 }
 
 #resume p {
-  background-color: var(--white-smoke);
-  color: var(--blue-violet-color-wheel-2);
+  background-color: var(--isabelline);
+  color: var(--font);
   justify-content: center;
   margin-top: 5px;
 }
@@ -186,19 +166,19 @@ h1 {
 #footer {
   margin-top: 10;
   padding: 5px;
-  background-color: var(--white-smoke);
+  background-color: var(--isabelline);
   justify-content: center;
 }
 
 #footer .icon {
   margin-top: 20px;
-  background-color: var(--white-smoke);
+  background-color: var(--isabelline);
 }
 
 #footer .footer-info {
-  background-color: var(--white-smoke);
-  color: var(--blue-violet-color-wheel-2);
+  background-color: var(--isabelline);
+  color: var(--font);
   margin: 8px;
   text-align: center;
 }
-/* ------ Footer ----- */
+/* ------ End Footer ----- */
