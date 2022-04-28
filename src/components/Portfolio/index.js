@@ -7,11 +7,11 @@ import data from "../../utils/data.json";
 function Portfolio() {
     return (
         <section>
-            <div className="project">
-                <h1 className="title">Kelly Dingman Professional Portfolio</h1>
+            <div className="my-5">
+                <h2>Kelly Dingman Professional Portfolio</h2>
             </div>
 
-            <div classsName="container flex-row space between" id="card-data">
+            <div classsName="container flex-row center">
                 {data.map((project) => (
                     <Projects 
                     key={project.id}

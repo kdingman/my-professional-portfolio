@@ -1,20 +1,14 @@
 import React from "react";
-
-import githubImage from "../../assets/githubImage.png";
-import linkedin from "../../assets/linkedin.png";
-import twitter from "../../assets/twitter.png";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 
 function Footer() {
     return (
-        <div className="footer" id="footer">
-            <a href="https://github.com/kdingman"><img src={githubImage} alt="Github" className="icon" /></a>
-            <a href="https://www.linkedin.com/in/kelly-dingman-a1786769/"><img src={linkedin} alt="LinkedIn" className="icon" /></a>
-            <a href="https://twitter.com/kcdinger"><img src={twitter} alt="Twitter" className="icon" /></a>
-        
-        <p className="footer-info">
-            &copy; 2022
-        </p>
+        <div className="container flex-row footer">
+            <a href="https://github.com/kdingman"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kelly-dingman-a1786769/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/kcdinger"><i class="fab fa-twitter"></i></a>
+            <p className="mx-1">Kelly Dingman | 2022</p>
         </div>
     );
 };

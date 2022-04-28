@@ -1,5 +1,9 @@
 body {
+  min-height: 100%;
   margin: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  color: var(--isabelline);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -29,11 +33,11 @@ code {
 
 * {
   box-sizing: border-box;
-  background: var(--isabelline);
 }
 
 a {
-  background: none;
+  color: var(--pale-cerulean);
+  font-weight: bold;
 }
 
 p {
@@ -44,24 +48,37 @@ p {
   text-align: center;
 }
 
-h1 {
+h1
+h2 
+h4 {
   margin: auto 25px;
   padding: 12px;
   color: var(--font);
   font-weight: bold;
 }
 
-#header {
-  background: var(--isabelline);
-  padding: 50px 40px 30px 40px;
+header {
+  padding: 50px 40px 30px 50px;
+  background-color: var(--isabelline);
 }
 
-/* ----- Nav ----- */
+.flex-row {
+  display: flex;
+  flex: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* -------- Nav -------- */
 .nav-link {
   background: var(--isabelline);
   border: none;
+  border-radius: 3px;
   color: var(--pale-cerulean);
-  font-size: 18px;
+  cursor: pointer;
+  font-size: 16px;
   font-weight: bold;
   padding: 10px 15px;
 }
@@ -70,115 +87,105 @@ h1 {
   background: var(--pale-cerulean);
   border: none;
   color: var(--isabelline);
-  font-size: 18px;
+  cursor: pointer;
+  font-size: 16px;
   font-weight: bold;
   padding: 10px 15px;
 }
-/* ----- End Nav ----- */
+/* -------- End Nav -------- */
 
-
-.icon {
-  padding: 10px;
-}
 
 /* ------ About Section ----- */
-#about-me {
-  margin: 2em;
+.personalpic {
+  display: block;
+  height: 200%;
+  width: 200%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#about-me p {
-  background-color: var(--white-smoke);
-  color: var(--blue-violet-color-wheel-2);
+.info {
+  padding: 10px 10px 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.info p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  color: var(--font);
+  margin: auto;
+}
+
 /* ------ End About Section ----- */
 
 /* ------ Contact Section ----- */
-#contact-section {
-  justify-content: center;
-  margin: 20px;
-  margin: 10em 0 10em 0;
+form {
+  width: 75%;
+  padding: 0 30px;
 }
+
+input {
+  margin-bottom: 5px;
+  border: 2.5px solid var(--alice-blue);
+  border-radius: 1px;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+  border: 2.5px solid var(--alice-blue);
+  padding: 5px;
+  border-radius: 2px;
+}
+
 /* ------ End Contact Section ----- */
 
 /* ------- Portfolio Cards -------- */
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card {
-  background-color: var(--blue-violet-color-wheel-2);
-  border: solid;
-  border-radius: 2px;
-  height: 400px;
-  width: 400px;
-  margin: 2rem;
-  position: relative;
-}
-
-.card .container img {
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: var(--blue-violet-color-wheel-2);
-}
-
-.card .content {
-  font-size: 18px;
-  font-weight: bold;
+  width: 25%;
   text-align: center;
-  background-color: var(--blue-violet-color-wheel-2);
+  background-color: var(--pale-cerulean);
   color: var(--font);
 }
 
-#project-icon {
-  background-color: var(--blue-violet-color-wheel-2);
-  padding: 5px;
-}
-
-#card-name {
-  margin-top: 10px;
+.content {
   color: var(--font);
-  font-weight: bold;
-}
-
-.portfolio-container {
-  justify-content: space-around;
-  display: flex;
-  flex-flow: row wrap;
-  align-content: flex-start;
-  overflow: auto;
-  padding-top: 50px;
-  padding: 10px;
-  height: 100%;
+  justify-content: space-between;
+  text-align: justify;
 }
 /* ------- End Cards -------- */
 
 /* ----- Resume ----- */
-#resume {
+.resume {
   background-color: var(--isabelline);
+  padding: 0 40px;
+
 }
 
-#resume p {
+.resume p {
   background-color: var(--isabelline);
   color: var(--font);
-  justify-content: center;
-  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  color: var(--font);
+  margin: auto;
 }
 /* ----- End Resume ----- */
 
 /* ------ Footer ----- */
-#footer {
-  margin-top: 10;
-  padding: 5px;
+footer {
+  padding: 25px 0;
   background-color: var(--isabelline);
   justify-content: center;
-}
-
-#footer .icon {
-  margin-top: 20px;
-  background-color: var(--isabelline);
-}
-
-#footer .footer-info {
-  background-color: var(--isabelline);
-  color: var(--font);
-  margin: 8px;
-  text-align: center;
 }
 /* ------ End Footer ----- */

@@ -6,7 +6,7 @@ function Nav({ currentPage, handlePageChange}) {
         <header className="flex-row px-1">
             <h2>Kelly Dingman</h2>
             <nav>
-                <ul className="justify-content-space-between">
+                <ul className="flex-row">
                     <li className="mx-2 nav-item">
                         <a href="#about" onClick={() => handlePageChange("About")} 
                             className={currentPage === "About" ? "nav-link-active" : "nav-link"}>

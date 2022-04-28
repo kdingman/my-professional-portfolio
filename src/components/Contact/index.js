@@ -40,10 +40,10 @@ function ContactForm() {
     }
 
     return (
-        <section className="justify-content-center" id="contact-section">
-            <h1 id="h1tag" className="contact">Contact Me</h1>
+        <section className="my-5">
+            <h2>Contact Me</h2>
 
-            <form className="justify-content-center" id="contact-form" >
+            <form id="contact-form">
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />

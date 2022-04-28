@@ -3,14 +3,11 @@ import personalpic from "../../assets/personalpic.jpg";
 
 function About() {
     return (
-        <section className='title'>
-            <h1 class="about-me justify-content-center">a little bit ABOUT me</h1>
-            <div className='row justify-content-center'>
-                <div className='col-10' id='about-me'>
-                    <img class="mb-5" src={personalpic} alt="personalpic" />
-                    <p class="justify-content-center">
-                        Oh Hello!
-                    </p>
+        <section className='my-5'>
+            <h2 id='about'>About Me</h2>
+            <div className='info'>
+                <img src={personalpic} className="personalpic" alt="personalpic" />
+
                     <p>    
                         My name is Kelly Dingman. I live in Zionsville, IN with my husband, two children and a very spastic rescue dog.
                     </p>
@@ -25,7 +22,6 @@ function About() {
                         I am looking forward to change of pace in my career and ready to put my creative side back to work.
                     </p>
                 </div>
-            </div>
         </section>
     );
 }
