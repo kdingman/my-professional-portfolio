@@ -1,26 +1,33 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import { MDBIcon } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
 
 
-
-function Projects(props) {
+function Project (props) {
     return (
-        <div className="container">
-            <div className="card">
-                <img alt={props.name} src={props.image} />
-            </div>
-            <div className="content">
-                <h4 className="project-name">{props.name}</h4>
+            <MDBCard style={{ width: '18rem' }}>
+            <MDBCardImage src={props.image} alt='...' position='top' />
+            <MDBCardBody>
+            <MDBCardText>
+                {props.name}
+                <a className="icon" href={props.github}><MDBIcon fab icon="github" /></a>
+                <a className="icon" href={props.live}><MDBIcon icon="code" /></a>
+            </MDBCardText>
+            </MDBCardBody>
+        </MDBCard>
 
-                <p>
-                    <a href={props.github}><i class="fab fa-github"></i></a>
-                    <a href={props.live}><i class="fas fa-code"></i></a>
-                </p>
 
-            </div>
-        </div>
+        // <div className="projects">
+        //     <div className="projectContainer">
+        //         <h3 className="projectTitle">{props.name}</h3>
+        //             <img src={require(`../../assets/${props.image}.png`)} alt="myprojects" />
+        //             <a className="icon" href={props.github}><MDBIcon fab icon="github" /></a>
+        //             <a className="icon" href={props.live}><MDBIcon icon="code" /></a>
+        //     </div>
+        // </div>
     );
 };
 
-export default Projects;
+export default Project;

@@ -8,10 +8,10 @@ function Portfolio() {
     return (
         <section>
             <div className="my-5">
-                <h2>Kelly Dingman Professional Portfolio</h2>
+                <h2>Kelly Dingman's Professional Portfolio</h2>
             </div>
 
-            <div classsName="container flex-row center">
+            <div className="container flex-row center">
                 {data.map((project) => (
                     <Projects 
                     key={project.id}

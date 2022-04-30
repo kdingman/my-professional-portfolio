@@ -45,13 +45,13 @@ function ContactForm() {
 
             <form id="contact-form">
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    <label htmlFor="name">Name:</label><br></br>
+                    <input type="text" name="name" defaultValue={name} placeholder="Regina Phalange" onBlur={handleChange} />
                 </div>
 
                 <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    <label htmlFor="email">Email:</label><br></br>
+                    <input type="email" name="email" defaultValue={email} placeholder="rphalange@email.com" onBlur={handleChange} />
                 </div>
 
                 <div>
@@ -64,7 +64,7 @@ function ContactForm() {
                     </div>
                 )}
 
-                <button id="button" class="btn btn-outline-secondary" type="submit" onSubmit={handleSubmit}>Submit</button>
+                <button type="submit" onSubmit={handleSubmit}>Submit</button>
 
             </form>
         </section>
