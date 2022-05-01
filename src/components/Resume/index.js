@@ -1,5 +1,6 @@
 import React from "react";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import { MDBIcon } from "mdbreact";
 
 
 function Resume() {
@@ -9,10 +10,10 @@ function Resume() {
 
             <div className="resume">
                     Business Professional with experience in Radio Promotions and Medical Billing.
-
+                    <br></br>
                     <p>
-                        <a href="https://www.linkedin.com/in/kelly-dingman-a1786769/"><i className="fab fa-linkedin"></i></a>
-                    </p>
+                       <a href="https://www.linkedin.com/in/kelly-dingman-a1786769/"><MDBIcon fab icon="linkedin" size="3x" /></a>
+                    </p> <br></br>
                     <p>
                         Check out all of my <a href="https://github.com/kdingman?tab=repositories" className="Repos"> projects</a>
                     </p>

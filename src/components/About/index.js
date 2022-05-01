@@ -12,7 +12,7 @@ function About() {
                         My name is Kelly Dingman. I live in Zionsville, IN with my husband, two children and a very spastic rescue dog.
                     </p>
                     <p>
-                        I have a Bachelor of Arts in Telecommunications from Ball State University, Chirp Chrip!
+                        I have a Bachelor of Arts in Telecommunications from Ball State University, Chirp Chirp!
                     </p>
                     <p>
                         I started my career in the promotions department at Emmis Communications with WIBC and WYXB. 
