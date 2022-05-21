@@ -61,5 +61,13 @@
         "description": "Progressive Web App",
         "github": "https://github.com/kdingman/BudgetKeeper",
         "live": "https://mybudgetkeeper.herokuapp.com/"
+    },
+    {
+        "id": 9,
+        "name": "Duty Docket",
+        "image": "docket",
+        "description": "MERN SPA",
+        "github": "https://github.com/kdingman/duty-docket.git",
+        "live": "https://dutydocket.herokuapp.com/"
     }
 ]
