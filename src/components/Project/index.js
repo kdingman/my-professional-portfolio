@@ -9,7 +9,7 @@ import { MDBCard, MDBCardBody, MDBCardText, MDBCardImage } from 'mdb-react-ui-ki
 function Project (props) {
     return (
             
-                <MDBCard style={{ width: '22rem' }}>
+                <MDBCard style={{ width: '18rem' }}>
                     <MDBCardImage className="img" src={require(`../../assets/${props.image}.png`)} alt="" position='top'/>
                 <MDBCardBody>
                 {<h3 className="text-center">{props.name}</h3>}
