@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/my-professional-portfolio/static/css/main.eed785b1.css",
+    "main.js": "/my-professional-portfolio/static/js/main.7cb11a70.js",
+    "static/js/787.f7fc6d9c.chunk.js": "/my-professional-portfolio/static/js/787.f7fc6d9c.chunk.js",
+    "static/media/fa-solid-900.svg": "/my-professional-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/my-professional-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/algorythm.png": "/my-professional-portfolio/static/media/algorythm.1619e52a19f63e4c77f5.png",
+    "static/media/fa-solid-900.eot": "/my-professional-portfolio/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/my-professional-portfolio/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/my-professional-portfolio/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/teamProfile.png": "/my-professional-portfolio/static/media/teamProfile.aeac36a6bee163fb5d91.png",
+    "static/media/fa-brands-400.eot": "/my-professional-portfolio/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/my-professional-portfolio/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/my-professional-portfolio/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/my-professional-portfolio/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/my-professional-portfolio/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/my-professional-portfolio/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/hoppyness.png": "/my-professional-portfolio/static/media/hoppyness.6f927b8db696f39632c2.png",
+    "static/media/blogged.png": "/my-professional-portfolio/static/media/blogged.96f0d4795c595b8b7d29.png",
+    "static/media/weather.png": "/my-professional-portfolio/static/media/weather.d0cb0b413948b2a6e929.png",
+    "static/media/budget.png": "/my-professional-portfolio/static/media/budget.5760e44ca1ab3914b779.png",
+    "static/media/workday.png": "/my-professional-portfolio/static/media/workday.2cb151aa49133afc0031.png",
+    "static/media/fa-regular-400.eot": "/my-professional-portfolio/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/my-professional-portfolio/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/postit.png": "/my-professional-portfolio/static/media/postit.ad936ed5504f820a748d.png",
+    "static/media/personalpic.jpg": "/my-professional-portfolio/static/media/personalpic.4af893aac6e953b071f2.jpg",
+    "static/media/fa-regular-400.woff": "/my-professional-portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/docket.png": "/my-professional-portfolio/static/media/docket.272961e0971d07e7532c.png",
+    "static/media/fa-regular-400.woff2": "/my-professional-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/my-professional-portfolio/index.html",
+    "main.eed785b1.css.map": "/my-professional-portfolio/static/css/main.eed785b1.css.map",
+    "main.7cb11a70.js.map": "/my-professional-portfolio/static/js/main.7cb11a70.js.map",
+    "787.f7fc6d9c.chunk.js.map": "/my-professional-portfolio/static/js/787.f7fc6d9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eed785b1.css",
+    "static/js/main.7cb11a70.js"
+  ]
+}
